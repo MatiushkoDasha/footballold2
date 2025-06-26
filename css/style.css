@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background: #8dc63f;
-    padding: 0 155px;
     font-family: 'Arial';
 }
 
@@ -14,11 +13,16 @@ h1 {
     font-weight: bold;
 }
 
+ul {
+    list-style: none;
+}
 li {
     list-style: none;
 }
 
 .body {
+    margin: auto;
+    max-width: 960px;
     padding: 15px 16px;
     background: white;
 }
@@ -39,6 +43,10 @@ li {
     text-decoration: none;
 }
 
+.ball img {
+    width: 102px;
+    height: 100px;
+}
 
 .big  {
     width: 100%;
@@ -55,7 +63,6 @@ li {
 }
 
 .block1 a {
-    margin-left: 21px;
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
