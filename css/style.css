@@ -1,5 +1,7 @@
 body {
+    margin: 0;
     background: #8dc63f;
+    padding: 0 155px;
     font-family: 'Arial';
 }
 
@@ -17,6 +19,7 @@ li {
 }
 
 .body {
+    padding: 15px 16px;
     background: white;
 }
 
@@ -36,6 +39,11 @@ li {
     text-decoration: none;
 }
 
+
+.big  {
+    width: 100%;
+}
+
 .contact {
     background: #39930d;
 }
@@ -47,6 +55,7 @@ li {
 }
 
 .block1 a {
+    margin-left: 21px;
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
@@ -58,7 +67,7 @@ li {
     font-size: 18px;
     color: #ffffff;
     width: 300px;
-    height: 40px;
+    padding: 14px 71px 13px 19px;
     background-color: #39930d;
 
 }
@@ -66,4 +75,9 @@ li {
 .contact p {
     color: #ffffff;
    
+}
+
+footer {
+    margin-top: -15px;
+    width: 100%;
 }
